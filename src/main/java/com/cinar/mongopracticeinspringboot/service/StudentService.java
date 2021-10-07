@@ -19,4 +19,8 @@ public interface StudentService
     List<Student> findStudentsByName(String name);
 
     Student findStudentsByNameAndEmail(String name, String email);
+
+    List<Student> findStudentsByNameOrEmail(String name, String email);
+
+    List<Student> findAllStudentsWithPagination(int pageNo, int pageSize);
 }

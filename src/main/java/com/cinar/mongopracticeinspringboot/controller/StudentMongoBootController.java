@@ -65,4 +65,16 @@ public class StudentMongoBootController
     {
         return studentService.findStudentsByNameAndEmail(name, email);
     }
+
+    @GetMapping("/getStudentsByNameOrEmail")
+    public List<Student> findStudentsByNameOrMail(@RequestParam String name, @RequestParam String email)
+    {
+        return studentService.findStudentsByNameOrEmail(name, email);
+    }
+
+    @GetMapping("/getAllWithPagination")
+    public List<Student> findAllStudentsWithPagination(@RequestParam int pageNo, @RequestParam int pageSize)
+    {
+        return studentService.findAllStudentsWithPagination(pageNo, pageSize);
+    }
 }

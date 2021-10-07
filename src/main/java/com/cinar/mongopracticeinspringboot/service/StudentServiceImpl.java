@@ -3,6 +3,8 @@ package com.cinar.mongopracticeinspringboot.service;
 import com.cinar.mongopracticeinspringboot.entity.Student;
 import com.cinar.mongopracticeinspringboot.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -64,5 +66,18 @@ public class StudentServiceImpl implements StudentService
     public Student findStudentsByNameAndEmail(String name, String email)
     {
         return studentRepository.findByNameAndEmail(name, email);
+    }
+
+    @Override
+    public List<Student> findStudentsByNameOrEmail(String name, String email)
+    {
+        return studentRepository.findByNameOrEmail(name, email);
+    }
+
+    @Override
+    public List<Student> findAllStudentsWithPagination(int pageNo, int pageSize)
+    {
+        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
+        return studentRepository.findAll(pageable).toList();
     }
 }
