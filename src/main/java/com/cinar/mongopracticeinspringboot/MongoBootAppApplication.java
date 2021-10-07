@@ -10,7 +10,14 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 public class MongoBootAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MongoBootAppApplication.class, args);
+		try
+		{
+			SpringApplication.run(MongoBootAppApplication.class, args);
+		}
+		catch (Exception exception)
+		{
+			System.out.println("SpringBootApplication deploy olurken hata alındı. Hata detayı: "+ exception.getMessage());
+		}
 	}
 
 }
