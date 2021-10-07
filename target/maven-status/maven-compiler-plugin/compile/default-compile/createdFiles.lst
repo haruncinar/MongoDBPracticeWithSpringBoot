@@ -1,0 +1,8 @@
+com\cinar\MinSB\entity\Department.class
+com\cinar\MinSB\repository\StudentRepository.class
+com\cinar\MinSB\entity\Subject.class
+com\cinar\MinSB\service\StudentServiceImpl.class
+com\cinar\MinSB\controller\StudentMongoBootController.class
+com\cinar\MinSB\MongoBootAppApplication.class
+com\cinar\MinSB\entity\Student.class
+com\cinar\MinSB\service\StudentService.class
