@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MongoBootAppApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads()
+	{
+		System.out.println("In contextLoads method of Tests");
 	}
 
 }
