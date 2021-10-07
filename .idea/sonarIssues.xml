@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/dao/order/OrderDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/customer/order/impl/OrderLineServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/ginger/impl/GingerServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/ordercapture/OrderCaptureService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/ordercapture/impl/OrderCaptureServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/ordermanagement/OrderManagementService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/ordermanagement/impl/OrderManagementServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/product/businessinteraction/impl/BaseProcessBusinessInteractionExecutionService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-business-services/src/main/java/tr/com/superonline/crm/services/product/businessinteraction/impl/MoveExecutionServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-db-model/src/main/java/tr/com/superonline/crm/model/customer/contract/DetailReason.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-db-model/src/main/java/tr/com/superonline/crm/model/util/GeneralConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-db-model/src/main/java/tr/com/superonline/crm/model/util/PropertyConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-web/src/main/java/tr/com/superonline/crm/web/controller/businessInteraction/MoveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-web/src/main/resources/messages.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../git/sol-crm/sol-web/src/main/webapp/reason/reasonManagement.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/MongoBootAppApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/controller/StudentMongoBootController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/entity/Department.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/entity/Student.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/entity/Subject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/repository/StudentDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/repository/StudentRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/service/StudentService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/cinar/MinSB/service/StudentServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
